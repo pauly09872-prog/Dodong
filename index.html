@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="The personal portfolio of Paul Angelo M. Hernandez. Explore a growing journey in JavaScript, SQL, data analytics, Python, and networking.">
+  <title>Paul Hernandez — Personal Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTgiIGZpbGw9IiMxOTE5MTkiLz48dGV4dCB4PSIzMiIgeT0iNDMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIzNCIgZmlsbD0iI2VlZTlkZiI+cC48L3RleHQ+PC9zdmc+Cg==">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>.
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="down" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol>
+    <symbol id="plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="share" viewBox="0 0 24 24"><path d="M12 15V3m-4 4 4-4 4 4M5 12v8h14v-8"/></symbol>
+    <symbol id="pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z"/></symbol>
+    <symbol id="chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 6 9 7 9-7"/></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="Paul Hernandez, home">paul<span>hernandez</span><i></i></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#certificates">Certificates</a><a href="#connect">Connect</a>
+      </nav>
+      <div class="header-actions">
+        <button class="glass icon-button" id="motion-toggle" aria-label="Pause animations" aria-pressed="false"><svg><use href="#pause"/></svg></button>
+        <button class="glass icon-button share-button" aria-label="Share this portfolio"><svg><use href="#share"/></svg></button>
+        <button class="glass icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><svg><use href="#menu"/></svg></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#home">Home</a><a href="#about">About</a><a href="#certificates">Certificates</a><a href="#connect">Connect</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="ink-wash" aria-hidden="true"></div><div class="hero-grain" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> PERSONAL PORTFOLIO <span class="eyebrow-year">/ 2026</span></p>
+          <p class="hello">Hi, I'm Paul Angelo.</p>
+          <h1 id="hero-heading">CURIOUS<br>MIND.<br><span class="outline">CREATIVE</span><br>SPIRIT.</h1>
+          <p class="hero-description">Exploring code, data, and the ideas in between.<br class="desktop-break"> One lesson. One discovery. One step forward.</p>
+          <div class="hero-ctas"><a class="glass glass-primary" href="#certificates">Explore my credentials <span class="button-orb"><svg><use href="#arrow"/></svg></span></a><a class="text-link" href="#about">A little about me <span>↗</span></a></div>
+        </div>
+        <div class="portrait-stage" id="portrait-stage">
+          <span class="portrait-label">CODE. LEARN. REPEAT.</span>
+          <div class="portrait-halo" aria-hidden="true"></div>
+          <div class="portrait-move"><div class="portrait-float"><img id="hero-portrait" class="hero-portrait" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="1024" height="1536" alt="Illustrated portrait of Paul Angelo Hernandez wearing a dark suit" fetchpriority="high" draggable="false"></div></div>
+          <div class="portrait-bottom-fade" aria-hidden="true"></div>
+          <div class="orbit-badge" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="circle-text" d="M60,60m-44,0a44,44 0 1,1 88,0a44,44 0 1,1-88,0"/></defs><text><textPath href="#circle-text">ALWAYS LEARNING · ALWAYS EVOLVING · </textPath></text></svg><span>✳</span></div>
+          <button class="glass portrait-switch" id="portrait-switch" aria-pressed="false"><span class="switch-dot"></span><span id="portrait-switch-label">View original photo</span><svg><use href="#arrow"/></svg></button>
+        </div>
+      </div>
+      <div class="container hero-bottom"><a href="#about" class="scroll-cue"><span class="scroll-line"></span>SCROLL TO EXPLORE <svg><use href="#down"/></svg></a><span>PAUL ANGELO M. HERNANDEZ</span><span class="hero-bottom-note">A LITTLE CURIOUS. ALWAYS.</span></div>
+    </section>
+
+    <div class="skill-ribbon" aria-label="Learning areas: JavaScript, SQL, Python, Data Analytics and Networking"><div class="ribbon-track" aria-hidden="true"><span>JAVASCRIPT</span><i>✳</i><span>SQL</span><i>✳</i><span>PYTHON</span><i>✳</i><span>DATA ANALYTICS</span><i>✳</i><span>NETWORKING</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>SQL</span><i>✳</i><span>PYTHON</span><i>✳</i><span>DATA ANALYTICS</span><i>✳</i><span>NETWORKING</span><i>✳</i></div></div>
+
+    <section class="about-section section-pad" id="about" aria-labelledby="about-heading">
+      <div class="container"><div class="section-top"><p class="eyebrow">01 / THE PERSON BEHIND THE SCREEN</p><span class="tiny-star" aria-hidden="true">✳</span></div>
+        <div class="about-layout"><h2 class="reveal" id="about-heading">A little curiosity.<br>A lot of <span class="serif">possibility.</span></h2><div class="about-copy reveal"><p class="lead">I'm Paul Angelo M. Hernandez, and I'm building my path in technology.</p><p>My learning journey brings together JavaScript, databases, data analysis, and networking. I enjoy connecting the dots between how things look, how they work, and what we can learn from them.</p><p>This is my space to share the skills I'm developing and the milestones along the way. There's always something new to explore.</p><a class="text-link" href="#learning">Discover my learning focus <span>↓</span></a></div></div>
+        <div class="about-stats reveal"><div><strong>11<span>↗</span></strong><p>Unique course credentials</p></div><div><strong>04</strong><p>Core learning areas</p></div><div class="stat-quote"><span>THE MINDSET</span><p>Stay curious.<br>Keep creating.</p><svg aria-hidden="true"><use href="#arrow"/></svg></div></div>
+      </div>
+    </section>
+
+    <section class="learning-section section-pad" id="learning" aria-labelledby="learning-heading"><div class="container">
+      <div class="section-top"><p class="eyebrow">02 / WHAT I'M EXPLORING</p><span class="micro-label">A FOUNDATION IN THE MAKING</span></div>
+      <div class="learning-header reveal"><h2 id="learning-heading">Different skills.<br>One <span class="serif">curious mind.</span></h2><p>From the browser to the database.<br>A connected approach to learning technology.</p></div>
+      <div class="focus-list">
+        <a class="focus-row reveal" href="#certificates" data-focus="JavaScript"><span class="focus-number">01</span><h3>Web & JavaScript</h3><p>Programming fundamentals<br>JavaScript essentials</p><span class="focus-arrow"><svg><use href="#arrow"/></svg></span></a>
+        <a class="focus-row reveal" href="#certificates" data-focus="SQL"><span class="focus-number">02</span><h3>Databases & SQL</h3><p>Queries, projects & optimization<br>SQL for data analysis</p><span class="focus-arrow"><svg><use href="#arrow"/></svg></span></a>
+        <a class="focus-row reveal" href="#certificates" data-focus="Data Analytics"><span class="focus-number">03</span><h3>Python & Data</h3><p>Data analysis using Python<br>Analytics essentials</p><span class="focus-arrow"><svg><use href="#arrow"/></svg></span></a>
+        <a class="focus-row reveal" href="#certificates" data-focus="Networking"><span class="focus-number">04</span><h3>Networks & Connections</h3><p>Networking devices<br>Initial configuration</p><span class="focus-arrow"><svg><use href="#arrow"/></svg></span></a>
+      </div>
+    </div></section>
+
+    <section class="certificates-section section-pad" id="certificates" aria-labelledby="certificates-heading"><div class="container">
+      <div class="section-top"><p class="eyebrow">03 / LEARNING, DOCUMENTED</p><span class="micro-label">SIMPLILEARN · CISCO · IBM</span></div>
+      <div class="certificates-heading reveal"><h2 id="certificates-heading">Small steps.<br>Real <span class="serif">milestones.</span></h2><div><p>A collection of courses, achievements,<br>and the curiosity that keeps me going.</p><p class="collection-note">15 supplied images · 11 unique credentials<br>Includes additional copies and badge artwork.</p></div></div>
+      <div class="gallery-toolbar"><div class="filter-list" id="filter-list" aria-label="Filter certificates"></div><label class="certificate-search"><svg aria-hidden="true"><use href="#search"/></svg><input id="certificate-search" type="search" placeholder="Search certificates…" aria-label="Search certificates" autocomplete="off"></label></div>
+      <div class="gallery-meta"><p id="result-count" aria-live="polite"></p><span>SELECT A RECORD TO TAKE A CLOSER LOOK <svg aria-hidden="true"><use href="#plus"/></svg></span></div>
+      <div class="certificate-grid" id="certificate-grid"></div><p class="empty-state" id="empty-state" hidden>No matching records. Try another topic or search.</p>
+      <div class="gallery-more"><button class="glass" id="show-more">Show more records <svg><use href="#plus"/></svg></button><button class="text-link" id="clear-filters" hidden>Clear filters <span>↗</span></button></div>
+      <noscript><p>Please enable JavaScript to see the portrait and browse all 15 certificate and badge images.</p></noscript>
+    </div></section>
+
+    <section class="connect-section section-pad" id="connect" aria-labelledby="connect-heading"><div class="container"><div class="section-top"><p class="eyebrow">04 / THE JOURNEY CONTINUES</p><span class="tiny-star" aria-hidden="true">✳</span></div><div class="connect-layout"><div><p class="hello">Thanks for stopping by.</p><h2 id="connect-heading">LET'S KEEP<br><span class="outline">CONNECTING.</span></h2><p id="connect-description">Ideas grow when they're shared.<br>Pass this portfolio along or revisit the journey.</p><div class="connect-actions" id="connect-actions"><button class="glass glass-primary share-button">Share my portfolio <span class="button-orb"><svg><use href="#share"/></svg></span></button><a class="text-link" href="#certificates">Explore certificates <span>↗</span></a></div></div><div class="signature"><span class="signature-script">Paul.</span><span>PAUL ANGELO M. HERNANDEZ<br>LEARNER. THINKER. BUILDER.</span></div></div></div></section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="wordmark" href="#home">paul<span>hernandez</span><i></i></a><p>© <span id="year">2026</span> Paul Angelo M. Hernandez</p><a class="back-top" href="#home">Back to top <svg><use href="#arrow"/></svg></a></div></footer>
+  <dialog id="certificate-dialog" aria-labelledby="viewer-title"><div class="viewer-shell"><div class="viewer-header"><div><span class="eyebrow" id="viewer-category"></span><h2 id="viewer-title"></h2><p id="viewer-details"></p></div><button class="glass icon-button" id="viewer-close" aria-label="Close certificate viewer"><svg><use href="#close"/></svg></button></div><div class="viewer-image-wrap" id="viewer-image-wrap"><img id="viewer-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" draggable="false"></div><div class="viewer-footer"><button class="glass viewer-nav" id="viewer-prev" aria-label="Previous record"><svg class="flip"><use href="#chevron"/></svg> Previous</button><span id="viewer-position" aria-live="polite"></span><button class="glass viewer-nav" id="viewer-next" aria-label="Next record">Next <svg><use href="#chevron"/></svg></button></div></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
